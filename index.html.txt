@@ -1,0 +1,10 @@
+<html>
+    <head>
+       <title>Minha Home Page </title> 
+	</head>
+	  <body>
+	  <H1>Bem vindo a Minha Pagina </h1>
+	  <p>olá, eu me chamo Lucas </p>
+	 
+	  </body>
+	</html> 
