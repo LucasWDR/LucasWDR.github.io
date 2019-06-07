@@ -1,14 +1,20 @@
-$("section"). load('home.html');
+$(document).ready(function(){
+  
+   $("section").load('home.html');  
 
-function home(){
-    $("section"). load('home.html');
-}
-function sobre(){
-    $("section"). load('sobre.html');
-}
-function cadastro(){
-    $("section"). load('cadastro.html');
-}
-function cadastro(){
-    $("section"). load('contato.html');
-}
+    $("#home").click(function(){
+      $("section").load('home.html');  
+    });    
+
+    $("#sobre").click(function(){
+        $("section").load('sobre.html');  
+      }); 
+
+    $("#cadastro").click(function(){
+        $("section").load('cadastro.html');  
+      }); 
+    
+    $("#produtos").click(function(){
+        $("section").load('produtos.html');  
+      }); 
+});
